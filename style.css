@@ -1,0 +1,130 @@
+:root {
+    --color-orange: hsl(31, 77%, 52%);
+    --color-cyan: hsl(184, 100%, 22%);
+    --color-dark-cyan: hsl(179, 100%, 13%);
+
+    --color-white: hsla(0, 0%, 100%, 0.75);
+    --color-gray: hsl(0, 0%, 95%);
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    background-color: var(--color-gray);
+}
+
+.container {
+    max-width: 1440px;
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.card-box {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card__item {
+    padding: 4rem;
+}
+
+.card__item--orange {
+    background-color: var(--color-orange);
+}
+
+.card__item--cyan {
+    background-color: var(--color-cyan);
+}
+
+.card__item--dark-cyan {
+    background-color: var(--color-dark-cyan);
+}
+
+.card__icon {
+    fill: var(--color-white);
+    margin-bottom: 2rem;
+}
+
+.card__title {
+    color: var(--color-gray);
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Big Shoulders Display";
+    margin-bottom: 2rem;
+}
+
+.card__paragraph {
+    color: var(--color-white);
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin-bottom: 4rem;
+}
+
+.card__button:link,
+.card__button:visited {
+    text-decoration: none;
+    background-color: var(--color-gray);
+    font-size: 1rem;
+    padding: 1em 2em;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    border: 1px solid var(--color-gray);
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.card__button:hover,
+.card__button:active {
+    background-color: transparent;
+    color: var(--color-gray);
+    border: 1px solid var(--color-gray);
+}
+
+.card__button--orange {
+    color: var(--color-orange);
+}
+
+.card__button--cyan {
+    color: var(--color-cyan);
+}
+
+.card__button--dark-cyan {
+    color: var(--color-dark-cyan);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+    .card-box {
+        display: flex;
+    }
+
+    .card__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .card__icon {
+        width: 30%;
+    }
+}
