@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Source](https://github.com/waltersono/3-column_preview_card)
+- Live Site URL: [Live](https://waltersono.github.io/3-column_preview_card/)
 
 ## My process
 
