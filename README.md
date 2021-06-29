@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source](https://github.com/waltersono/3-column_preview_card)
-- Live Site URL: [Live](https://waltersono.github.io/3-column_preview_card/)
+- Solution URL: [See source code](https://github.com/waltersono/3-column_preview_card)
+- Live Site URL: [Open live project](https://waltersono.github.io/3-column_preview_card/)
 
 ## My process
 
@@ -45,6 +45,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Media Queries
 
 ## Author
 

@@ -2,7 +2,6 @@
     --color-orange: hsl(31, 77%, 52%);
     --color-cyan: hsl(184, 100%, 22%);
     --color-dark-cyan: hsl(179, 100%, 13%);
-
     --color-white: hsla(0, 0%, 100%, 0.75);
     --color-gray: hsl(0, 0%, 95%);
 }
@@ -27,8 +26,8 @@ body {
 }
 
 .container {
-    max-width: 1440px;
-    width: 90%;
+    max-width: 30rem;
+    width: 80%;
     margin: 5rem auto;
 }
 
@@ -54,7 +53,6 @@ body {
 }
 
 .card__icon {
-    fill: var(--color-white);
     margin-bottom: 2rem;
 }
 
@@ -113,7 +111,16 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 25em) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (min-width: 78.125em) {
+    .container {
+        max-width: 90rem;
+    }
     .card-box {
         display: flex;
     }
